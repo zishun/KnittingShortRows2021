@@ -1,5 +1,7 @@
 # Knitting with Short-Rows Shaping
 
+<img src="https://github.com/zishun/KnittingShortRows2021/raw/main/input/overview.png" width="800"/>
+
 ## Usage
 
 1. Clone ```git clone --recurse-submodules https://github.com/zishun/knitting2021```
