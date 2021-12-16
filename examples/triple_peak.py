@@ -91,7 +91,7 @@ def find_source(mesh):
             edges.append(e)
     G.add_edges_from(edges)
     
-    idx0, idx1 = 1336, 3  # pick two points on the middle curve
+    idx0, idx1 = 1336, 3  # two end vertices of the middle curve
     p = nx.shortest_path(G, source=idx0, target=idx1)
     p = np.array(p, 'i4')
     return pts[p]
