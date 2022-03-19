@@ -3,11 +3,11 @@ import networkx as nx
 import openmesh as om
 from scipy.spatial import cKDTree
 import os
+import meshutility as mu
 
 import sys
 sys.path.append('../')
 from KnittingEngine import *
-import MeshUtility as mu
 
 
 class ValidGeodesicField:

@@ -4,10 +4,13 @@
 
 ## Usage
 
-1. Clone ```git clone --recurse-submodules https://github.com/zishun/knitting2021```
-2. Build ```MeshUtility``` following ```MeshUtility/README.md```.
-3. Install necessary python packages in ```requirements.txt```.
-4. Run the examples
+1. Clone ```git clone https://github.com/zishun/knitting2021 && cd knitting2021```
+2. Install dependencies 
+```
+pip install -r requirements.txt
+conda install -c conda-forge igl
+```
+3. Run the examples
 ```
 cd examples/
 python ./hemisphere.py

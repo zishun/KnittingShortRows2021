@@ -4,11 +4,11 @@ import openmesh as om
 import pickle
 from tqdm import trange
 import os
+import meshutility as mu
 
 import sys
 sys.path.append('../')
 from KnittingEngine import *
-import MeshUtility as mu
 
 
 def isocurve(r, v, step):

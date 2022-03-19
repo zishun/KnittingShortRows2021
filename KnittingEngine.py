@@ -12,8 +12,7 @@ import networkx as nx
 from tqdm import trange
 import pickle
 import time
-
-import MeshUtility as mu
+import meshutility as mu
 
 
 __all__ = ['KnittingEngine', 'KnittingMesh', 'ColumnCurve', 'geodesic_field_reorient']

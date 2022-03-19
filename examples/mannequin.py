@@ -1,11 +1,11 @@
 import numpy as np
 import openmesh as om
 import os
+import meshutility as mu
 
 import sys
 sys.path.append('../')
 from KnittingEngine import *
-import MeshUtility as mu
 
 
 def field(mesh):

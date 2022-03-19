@@ -2,3 +2,5 @@ numpy
 scipy
 openmesh
 networkx
+meshutility==0.0.1
+tqdm
