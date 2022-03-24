@@ -66,7 +66,7 @@ class KnittingEngine:
         self.color_by_row(self.knitting_mesh, self.row_col_idx)
         om.write_mesh(folder+'/knitting_mesh_raw.obj',
                       self.knitting_mesh,
-                      face_color=True)
+                      face_color=True, material_file_extension='.mtl')
 
         km = KnittingMesh().set(
                 self.knitting_mesh.points(),
@@ -87,7 +87,7 @@ class KnittingEngine:
         mesh = om.PolyMesh(km.v, km.f)
         self.color_by_row(mesh, km.f_ij)
         om.write_mesh(folder+'/onestroke.obj', mesh,
-                      face_color=True)
+                      face_color=True, material_file_extension='.mtl')
 
         print('Total time: %.2fs' % (time.time()-start))
         print('------------------------------------------------')
