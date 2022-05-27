@@ -4,11 +4,14 @@
 
 ## Usage
 
-1. Clone ```git clone https://github.com/zishun/knitting2021 && cd knitting2021```
+* Try it directly in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zishun/KnittingShortRows2021/blob/main/KnittingShortRows2021.ipynb).
+* Or look into the details. See steps below.
+
+
+1. Clone ```git clone https://github.com/zishun/KnittingShortRows2021 && cd KnittingShortRows2021```
 2. Install dependencies 
 ```
 pip install -r requirements.txt
-conda install -c conda-forge igl
 ```
 3. Run the examples
 ```
